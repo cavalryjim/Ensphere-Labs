@@ -1,12 +1,12 @@
 EnsphereLabs::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
-  root :to => "welcome#home"
+  root :to => "pages#home"
   
-  get "welcome/home"
-  get "welcome/portfolio"
-  get "welcome/about"
-  get "welcome/contact"
+  get "pages/home"
+  get "pages/portfolio"
+  get "pages/about"
+  get "pages/contact"
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
