@@ -11,13 +11,7 @@
 	<div id="container">
 		<div id="header">
 			<div id="headercontent">
-				<h1 id="logo"><%= link_to "ensphere.com", root_url %></h1>
-				<div id="nav">
-					<%= link_to "About", about_path %>
-					<%= link_to "Portfolio", portfolio_path %>
-					<%= link_to "Contact", contact_path %>
-				</div><!-- #nav -->
-				<div class="clear"></div>				
+				<%= render 'layouts/header' %>	
 			</div><!-- #headercontent -->
 		</div><!-- #header -->
 		<div id="content">
