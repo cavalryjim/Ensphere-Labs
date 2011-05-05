@@ -3,10 +3,9 @@ EnsphereLabs::Application.routes.draw do
   # first created -> highest priority.
   root :to => "pages#home"
   
-  get "pages/home"
-  get "pages/portfolio"
-  get "pages/about"
-  get "pages/contact"
+  match '/contact', :to => 'pages#contact'
+  match '/about',   :to => 'pages#about'
+  match '/portfolio', :to => 'pages#portfolio'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
