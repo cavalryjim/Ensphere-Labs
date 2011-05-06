@@ -103,13 +103,13 @@ table tr td {
   margin: 0 auto;
   color: #eee;
   width: 100%;
-  border-bottom: 1px solid #63686b;
 }
   #headercontent {
     width: 1000px;
     margin: 0 auto;
     font-weight: bold;
     font-size: 1.25em;
+    word-spacing: 15px;
   }
   h1#logo {
     margin: 0;
@@ -277,3 +277,57 @@ form p {
   border: 1px solid #63686b;
   padding: 5px;
 }
+
+/* Sectioning content -------- */
+ #left, #right {
+    float: left;
+    width: 400px;
+    line-height: 2;
+  }
+  #left { padding-right: 50px; }
+  strong.big_green {
+    font-size: 18px;
+    color: #99be49;
+    font-weight: normal;
+  }
+  #sayhello {
+    font-size: 14px;
+    color: #6eb0a3;
+    padding: 5px 0;
+    margin: 10px 0;
+    border-top: 1px solid #6eb0a3;
+    border-bottom: 1px solid #6eb0a3;
+    font-style: italic;
+    font-weight: normal;
+  }
+  #right h3 {
+    font-size: 18px;
+    color: #99be49;
+    font-weight: normal;
+  }
+  #right h4 {
+    font-style: italic;
+    font-weight: normal;
+    line-height: .5;
+  }
+  #right header {
+    padding-bottom: 0;
+  }
+  #right article {
+    border-bottom: 1px solid #6eb0a3;
+    padding: 15px 0;
+    line-height: 1.5;
+  }
+  #right h5 {
+
+  }
+  #right article:last-child {
+    border-bottom: none;
+  }
+  #right .meta {
+    font-weight: bold;
+    color: #9e9f9f;
+  }
+    #right time, #right header p {
+      display: inline;
+    }
