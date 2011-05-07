@@ -15,8 +15,39 @@ header img {
   background: #fff;
 }
 
+#header .descriptionwrapper {
+	background: #88ddff; 
+	margin:0 0 6px;
+	padding:12px 0 0;
+	color: #000000;
+	font-size: 75%;
+	border-bottom: 1px solid #ffffff;
+	width: 100%;
+}
+#header .description {
+	margin:0;
+	padding:0 0 12px;
+	display:block;
+	line-height: 1.6em;
+	text-transform:uppercase;
+	letter-spacing:.1em;
+	min-height:12px;
+	border-bottom: 1px solid #ffffff;
+}
+#header .description span {
+	display:block;
+	padding-top:0;
+	padding-right:0;
+	padding-bottom:0;
+	padding-left:160px;
+	text-transform:uppercase;
+	letter-spacing:.1em;
+	min-height:12px;
+}
+
+
 footer {
-  text-align: center;
+  text-align: right;
   margin-top: 10px;
   width: 710px;
   margin-left: auto;
@@ -252,3 +283,58 @@ form.new_micropost textarea {
   height: 4em;
   margin-bottom: 0;
 }
+
+/* Sectioning content -------- */
+ #left, #right {
+    float: left;
+    width: 400px;
+    line-height: 2;
+  }
+  #left { padding-right: 50px; }
+  strong.big_green {
+    font-size: 18px;
+    color: #99be49;
+    font-weight: normal;
+  }
+  #sayhello {
+    font-size: 14px;
+    color: #6eb0a3;
+    padding: 5px 0;
+    margin: 10px 0;
+    border-top: 1px solid #6eb0a3;
+    border-bottom: 1px solid #6eb0a3;
+    font-style: italic;
+    font-weight: normal;
+  }
+  #right h3 {
+    font-size: 18px;
+    color: #99be49;
+    font-weight: normal;
+  }
+  #right h4 {
+    font-style: italic;
+    font-weight: normal;
+    line-height: .5;
+  }
+  #right header {
+    padding-bottom: 0;
+  }
+  #right article {
+    border-bottom: 1px solid #6eb0a3;
+    padding: 15px 0;
+    line-height: 1.5;
+  }
+  #right h5 {
+
+  }
+  #right article:last-child {
+    border-bottom: none;
+  }
+  #right .meta {
+    font-weight: bold;
+    color: #9e9f9f;
+  }
+    #right time, #right header p {
+      display: inline;
+    }
+
