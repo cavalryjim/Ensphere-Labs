@@ -1,29 +1,41 @@
-.container {
-  width: 710px;
+#container {
+	margin: 0 auto;
+  	width: 1000px;
+  	background-color: #fff;
+  	border: 1px solid #ccc;
 }
 
 /* Content styles -------------------------------------------- */
 
 #content {
   margin: 0 auto;
-  width: 1000px;
-  padding-bottom: 50px;
-  padding-top: 25px;
+  width: 100%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  background-color: #fff;
 }
 
 body {
-  background: #fff;
+  background: #eee;
   font-family: "arial";
 }
 
 header {
-  padding-top: 20px;
+  padding-top: 10px;
   font-family: "arial";
 }
 
 header img {
   padding: 1em;
   background: #fff;
+}
+
+.headercontent {
+  margin: 0 auto;
+  width: 750px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+  background: #ffc;
 }
 
 #header .descriptionwrapper {
@@ -61,7 +73,7 @@ header img {
   border-top: 1px solid #63686b;
   height: 50px;
   margin: 0 auto;
-  position: relative;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -86,20 +98,20 @@ header img {
     float: left;
   }
   
-/* footer {
-  text-align: right;
+footer {
+  text-align: left;
   margin-top: 10px;
-  width: 710px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 } 
 
 footer nav {
   float: none;
-} */
+} 
 
 section {
-  margin-top: 1em;
+  margin-top: 0px;
   font-size: 120%;
   padding: 20px;
   background: #fff;
@@ -145,7 +157,7 @@ nav ul {
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  padding: 0.2em 0;
+  padding: 0.4em 0;
 }
 
 nav ul li a {
@@ -161,20 +173,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Sign up button */
-
-a.signup_button {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
-  width: 190px;
-  color: #fff;
-  background: #006400;
-  font-size: 150%;
-  font-weight: bold;
-  padding: 20px;
-}
 
 /* Round corners */
 
@@ -184,45 +182,6 @@ a.signup_button {
   border-radius:         10px;
 }
 
-/* User show page */
-
-table.profile {
-  width: 100%;
-  margin-bottom: 0;
-}
-
-td.main {
-  width: 70%;
-  padding: 1em;
-}
-
-td.sidebar {
-  width: 30%;
-  padding: 1em;
-  vertical-align: top;
-  background: #ffc;
-}
-
-.profile img.gravatar {
-  border: 1px solid #999;
-  margin-bottom: -15px;
-}
-
-/* user list */
-
-ul.users {
-  margin-top: 1em;
-}
-
-.users li {
-  list-style: none;
-}
-
-/* signup form */
-
-div.field, div.actions {
-  margin-bottom: 10px;
-}
 
 /* styling for error messages */
 
@@ -267,68 +226,13 @@ div.field, div.actions {
   list-style: square;
 }
 
-/* Mircroposts */
-
-h1.micropost {
-  margin-bottom: 0.3em;
-}
-
-table.microposts {
-  margin-top: 1em;
-}
-
-table.microposts tr {
-  height: 70px;
-}
-
-table.microposts tr td.gravatar {
-  border-top: 1px solid #ccc;
-  vertical-align: top;
-  width: 50px;
-}
-
-table.microposts tr td.micropost {
-  border-top: 1px solid #ccc;
-  vertical-align: top;
-  padding-top: 10px;
-}
-
-table.microposts tr td.micropost span.timestamp {
-  display: block;
-  font-size: 85%;
-  color: #666;
-}
-
-div.user_info img {
-  padding-right: 0.1em;
-}
-
-div.user_info a {
-  text-decoration: none;
-}
-
-div.user_info span.user_name {
-  position: absolute;
-}
-
-div.user_info span.microposts {
-  font-size: 80%;
-}
-
-form.new_micropost {
-  margin-bottom: 2em;
-}
-
-form.new_micropost textarea {
-  height: 4em;
-  margin-bottom: 0;
-}
 
 /* Sectioning content -------- */
  #left, #right {
     float: left;
-    width: 400px;
-    line-height: 2;
+    width: 44%;
+    line-height: 1;
+    background-color: #fff;
   }
   #left { padding-right: 50px; }
   strong.big_green {
