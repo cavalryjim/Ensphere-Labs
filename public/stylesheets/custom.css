@@ -2,20 +2,21 @@
 	margin: 0 auto;
   	width: 1000px;
   	background-color: #fff;
+  	border: 1px solid #ccc;
 }
 
 /* Content styles -------------------------------------------- */
 
 #content {
   margin: 0 auto;
-  width: 1000px;
+  width: 100%;
   padding-bottom: 0px;
   padding-top: 0px;
   background-color: #fff;
 }
 
 body {
-  background: #fff;
+  background: #eee;
   font-family: "arial";
 }
 
@@ -229,7 +230,7 @@ nav ul li a:hover {
 /* Sectioning content -------- */
  #left, #right {
     float: left;
-    width: 40%;
+    width: 44%;
     line-height: 1;
     background-color: #fff;
   }
