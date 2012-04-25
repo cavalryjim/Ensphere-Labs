@@ -1,11 +1,12 @@
 EnsphereLabs::Application.routes.draw do
+  get "page/about"
+
+  get "page/portfolio"
+
+  get "page/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
-  root :to => "pages#home"
-  
-  match '/contact', :to => 'pages#contact'
-  match '/about',   :to => 'pages#about'
-  match '/portfolio', :to => 'pages#portfolio'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
@@ -53,11 +54,12 @@ EnsphereLabs::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  # root :to => 'welcome#index'
+  root :to => 'page#about'
 
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
-  match ':controller(/:action(/:id(.:format)))'
+  # match ':controller(/:action(/:id))(.:format)'
 end

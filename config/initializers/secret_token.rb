@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-EnsphereLabs::Application.config.secret_token = '4831d4b1f93c6e7a33711a5688094bcf1533e6b1e90e2f104cdb53b768c4a53edcad15d8f009415c5d62108e82e2ffc232b5a356f2e95146c24de81a4c6fca74'
+EnsphereLabs::Application.config.secret_token = 'c25f10232fd22f13435195084fbb9f72e219f4da2b8020212357501837aa3ee573f02d02b851abc1d956a347df9f39392487f0ef417f2d6e8a192b14849396a6'
